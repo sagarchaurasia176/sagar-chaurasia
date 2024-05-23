@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderNav from "./HeaderNav";
-import LocomotiveScroll from 'locomotive-scroll';
+import LocomotiveScroll from "locomotive-scroll";
 import HeroSection from "./HeroSection";
 import Education from "./Education";
 
@@ -10,10 +10,10 @@ const locomotiveScroll = new LocomotiveScroll();
 const MainPage = () => {
   return (
     <div>
-      <div className=" ">
+      <div className="">
         <HeaderNav />
-        <HeroSection/>
-        <Education/>
+        <HeroSection />
+        <Education />
       </div>
     </div>
   );
