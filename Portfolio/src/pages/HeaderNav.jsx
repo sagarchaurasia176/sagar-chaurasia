@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const HeaderNav = () => {
   return (
     <div>
-      <div className=" bg-slate-900 text-white  shadow-sm p-4">
+      <div className=" bg-slate-900  text-white  shadow-sm p-4">
         {/* header nav div */}
         <div className=" flex justify-evenly  mx-auto    max-w-[1200px]">
         <div className=" text-blue-800  font-bold font-sans">

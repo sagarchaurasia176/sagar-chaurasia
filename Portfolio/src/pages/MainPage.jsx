@@ -3,6 +3,9 @@ import HeaderNav from "./HeaderNav";
 import LocomotiveScroll from "locomotive-scroll";
 import HeroSection from "./HeroSection";
 import Education from "./Education";
+import AboutSection from "./AboutSection";
+import { Contact } from "lucide-react";
+import SkillSection from "./SkillSection";
 
 // locmotiveScroll
 const locomotiveScroll = new LocomotiveScroll();
@@ -10,10 +13,14 @@ const locomotiveScroll = new LocomotiveScroll();
 const MainPage = () => {
   return (
     <div>
-      <div className="">
+      <div>
         <HeaderNav />
         <HeroSection />
         <Education />
+        <AboutSection/>
+        <Contact/>
+        <SkillSection/>
+        
       </div>
     </div>
   );
