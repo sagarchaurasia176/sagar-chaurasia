@@ -15,12 +15,14 @@ const MainPage = () => {
     <div>
       <div>
         <HeaderNav />
+        <div>
         <HeroSection />
-        <Education />
+        </div>
         <AboutSection/>
-        <Contact/>
-        <SkillSection/>
-        
+        {/* <Education /> */}
+        {/* <Contact/> */}
+        {/* <SkillSection/> */}
+
       </div>
     </div>
   );
