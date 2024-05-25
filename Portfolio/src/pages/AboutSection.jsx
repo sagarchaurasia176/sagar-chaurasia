@@ -24,8 +24,8 @@ const AboutSection = () => {
           <div></div>
         </div>
         <div className=" flex justify-center items-center space-x-4">
-          <button className=" bg-slate-800 text-white p-2">Checkout Resume</button>
-          <button className="  bg-slate-800 text-white p-2">Connect with Me</button>
+          <button className=" rounded-md bg-slate-800 text-white p-2">Checkout Resume</button>
+          <button className=" rounded-md  bg-slate-800 text-white p-2">Connect with Me</button>
          
         </div>
       </div>

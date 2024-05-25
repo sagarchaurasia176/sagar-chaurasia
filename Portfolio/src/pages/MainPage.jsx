@@ -4,11 +4,11 @@ import LocomotiveScroll from "locomotive-scroll";
 import HeroSection from "./HeroSection";
 import Education from "./Education";
 import AboutSection from "./AboutSection";
-import { Contact } from "lucide-react";
 import SkillSection from "./SkillSection";
 import ProjectSection from "./ProjectSection";
 import ShapeBottom from "./ShapeDivider/ShapeBottom";
 import CodingProfile from "./CodingProfile";
+import ContactPage from "./ContactPage";
 
 // locmotiveScroll
 const locomotiveScroll = new LocomotiveScroll();
@@ -27,10 +27,9 @@ const MainPage = () => {
         <Education />
         <br></br>
         <div className="">
-
           <CodingProfile />
         </div>
-        {/* <Contact/> */}
+      <ContactPage/>
         {/* <SkillSection/> */}
       </div>
     </div>
