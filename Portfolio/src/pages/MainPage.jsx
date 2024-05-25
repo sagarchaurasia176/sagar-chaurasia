@@ -6,6 +6,9 @@ import Education from "./Education";
 import AboutSection from "./AboutSection";
 import { Contact } from "lucide-react";
 import SkillSection from "./SkillSection";
+import ProjectSection from "./ProjectSection";
+import ShapeBottom from "./ShapeDivider/ShapeBottom";
+import CodingProfile from "./CodingProfile";
 
 // locmotiveScroll
 const locomotiveScroll = new LocomotiveScroll();
@@ -15,14 +18,20 @@ const MainPage = () => {
     <div>
       <div>
         <HeaderNav />
-        <div>
-        <HeroSection />
+        <div className="  relative">
+          <HeroSection />
+          <ShapeBottom />
         </div>
-        <AboutSection/>
-        {/* <Education /> */}
+        <AboutSection />
+        <ProjectSection />
+        <Education />
+        <br></br>
+        <div className="">
+
+          <CodingProfile />
+        </div>
         {/* <Contact/> */}
         {/* <SkillSection/> */}
-
       </div>
     </div>
   );

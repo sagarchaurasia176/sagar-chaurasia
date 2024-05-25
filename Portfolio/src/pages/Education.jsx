@@ -1,12 +1,67 @@
-import React from 'react'
-
+import React from "react";
+import { TechSkillImg } from "@/lib/ImgSkillLib";
+import { Experience } from "@/lib/Experience";
 const Education = () => {
   return (
     <div>
-      {/* Education */}
-      {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi beatae dolores consectetur libero voluptates est mollitia optio fugiat porro perferendis, voluptate quia, facilis inventore nulla, debitis sit illo! Expedita mollitia libero alias repellat iure. Exercitationem modi, harum quam maiores voluptate eum. Officiis earum, quasi vitae architecto magnam ab blanditiis dolores assumenda quis sequi, consequuntur, qui necessitatibus sapiente aut praesentium quos maiores! Voluptatem eaque sunt distinctio debitis mollitia accusamus dolorem placeat ad vero minima atque veniam eius quidem, quos error delectus. Possimus, id recusandae aspernatur sapiente veniam aperiam exercitationem inventore harum, excepturi obcaecati ab labore nam porro reprehenderit ea reiciendis eaque voluptate dolore delectus! Earum nemo velit, accusantium doloribus neque praesentium. Dolorum nostrum, nisi aut iusto repellat minima neque perferendis libero praesentium, error quae et adipisci ipsam iure ab minus sunt architecto quod consequuntur! Aspernatur eos tempore explicabo delectus est! Est iure tenetur et possimus, placeat impedit alias quibusdam molestiae ab, recusandae id error quod atque. Nostrum, voluptatibus exercitationem! Asperiores saepe repudiandae non assumenda porro. Laboriosam, blanditiis placeat sed illum, deserunt incidunt exercitationem iure quisquam aspernatur, molestias minus mollitia quas ullam. Voluptates quod aut nobis minus ea nesciunt ad sit voluptatem maxime eum esse illum omnis, at, minima quos, voluptas ex. Saepe maiores vel earum id libero? Id quos incidunt quae ad vero, harum dolorem neque eos. Eius omnis eveniet aut ratione maiores incidunt temporibus ullam ut, quam, maxime neque quasi repellat veritatis soluta esse corporis impedit porro minus assumenda beatae amet, quisquam exercitationem! Eligendi repellat assumenda ut. Soluta minima excepturi veritatis consectetur accusantium eos placeat porro, at, ut assumenda eius rerum labore minus, optio vero cumque laudantium eum dolores tenetur impedit dignissimos sunt laboriosam perspiciatis. Modi in, distinctio, porro id enim beatae, aliquid at eos illum quibusdam autem rerum dolor optio? Quisquam enim ipsa maiores similique, magnam porro neque alias quos minus dolorem earum quaerat tenetur veritatis expedita fuga et nostrum quia debitis aliquam, aspernatur nisi modi. Quod aliquam est minus cum nihil iure blanditiis impedit pariatur voluptatibus repellendus dolore voluptates esse perferendis expedita repudiandae ut, officia consequuntur ad odio culpa sapiente. Pariatur recusandae magni asperiores ducimus eum dignissimos deserunt doloribus dolor sapiente praesentium doloremque, saepe id modi? Error doloremque natus assumenda ipsam temporibus, odio nostrum minus iure rerum ex numquam voluptatum voluptatem nam deserunt reiciendis impedit dolorum! Odit nulla tempora quos quidem sit, culpa error provident ipsa voluptate repudiandae beatae non ullam assumenda dolor suscipit, laborum vero veniam ad sapiente? Distinctio tenetur sapiente odit quidem perferendis aspernatur suscipit corrupti quae dicta quaerat. Tenetur, voluptate modi labore enim impedit explicabo molestias error officiis cumque magni quos recusandae maxime facere minima exercitationem ad aliquam beatae sapiente sequi, id esse quam! Soluta eum a maxime sed harum, itaque, repudiandae illum vel, illo at similique. Enim soluta commodi perferendis laborum et quod aut consequuntur, eius tenetur vero hic maiores nobis sapiente est, dignissimos molestiae similique temporibus ad deserunt quam nihil quisquam consequatur. Excepturi quaerat sed id voluptatum, et a delectus repellat nam voluptates alias illo sequi quas voluptatibus ab ipsa rem libero! Neque voluptatem consequuntur aut! Officiis fugit quo, vero iure esse autem natus consequuntur velit qui minima corrupti dignissimos non, maxime similique? Ipsa dolorum rerum ex incidunt voluptatibus, eum aspernatur nulla similique quaerat debitis, error blanditiis quod sunt temporibus saepe soluta. Illo numquam id dicta unde soluta expedita eveniet deserunt facilis veniam. Sequi magnam quasi magni. Ipsum nihil illum dicta reprehenderit eveniet odit voluptatum tempore aut nesciunt! Deserunt et vero illum magnam aliquam eligendi, quos consequatur aliquid, ullam iste laboriosam libero dicta optio obcaecati ex sit tenetur? Dolorem eaque deleniti vel, non, ratione eveniet id consequuntur ipsam vitae ut minima dignissimos iste voluptate earum facilis voluptatibus quidem officiis ipsum autem placeat. Quae ab quaerat sint quisquam assumenda quibusdam nobis ducimus reiciendis nesciunt autem, quos laborum ad debitis culpa aspernatur dignissimos, vel aliquid repellat aut dolorum porro obcaecati? Dolores, necessitatibus, iste quaerat alias, voluptas architecto maiores iure veritatis asperiores voluptatem error! Maiores ea, magni adipisci harum pariatur cupiditate fugiat error aliquam assumenda facere quis sapiente eius natus rem magnam est voluptatum velit odit laudantium repellendus omnis accusamus distinctio dolores suscipit. Praesentium, eius provident libero excepturi eligendi ex ipsum obcaecati natus magnam possimus nesciunt dignissimos, aut facilis amet corrupti architecto beatae quidem expedita sint velit placeat, ratione et! Dolor necessitatibus natus optio error provident, dolores doloremque tempore alias soluta autem omnis numquam fuga, eum dignissimos culpa assumenda totam ea temporibus explicabo tenetur sed eos, perferendis repellat? Rem, est? Voluptas eaque explicabo est molestias cumque dolores, fugit eveniet! Provident explicabo et delectus blanditiis debitis vel cumque beatae officia veniam soluta at recusandae repellat esse modi voluptate odit suscipit, iure adipisci incidunt obcaecati iusto pariatur ullam temporibus. Facilis ullam quam labore sequi natus velit consequuntur officiis eos, inventore laborum error. Excepturi, accusantium maiores. Nesciunt alias necessitatibus, aperiam sunt, iure dignissimos maxime quis vel sit corrupti illum, minus nam blanditiis placeat explicabo? Officia voluptates labore provident nesciunt doloremque quod rerum incidunt ipsam quis maxime nam veritatis facilis quam sapiente ratione amet, iusto alias laudantium dolorum aut rem tempore! Commodi omnis similique sequi, qui placeat tenetur eveniet temporibus dolorum error blanditiis, optio quas animi magnam. Qui mollitia deserunt recusandae similique odio? Harum animi, quis veniam voluptatibus doloremque corporis totam dicta obcaecati earum praesentium, quas accusamus cupiditate iure architecto? Exercitationem minus tempora nostrum adipisci temporibus deleniti laborum libero rerum beatae odit nam sint quis consectetur quidem minima, officia eos, animi quasi reprehenderit delectus, eaque explicabo eius. Quas labore, veritatis repellat, rem ex saepe corrupti ipsa facilis quibusdam eveniet ratione minima in cum rerum neque suscipit incidunt iure qui cumque dolores? Doloremque aliquid ut quo, veritatis quam repudiandae blanditiis mollitia hic. Quisquam incidunt pariatur sapiente fuga saepe quis? Libero cupiditate maiores beatae aperiam debitis quis fugit distinctio delectus perferendis sint dicta culpa repellendus facere, non qui fuga pariatur quidem quod adipisci quam sapiente iure? Sint, voluptatibus pariatur. Doloribus laborum iure eligendi. Dicta consequuntur nemo provident! Quasi dolores, consequuntur laborum voluptatum eum eaque exercitationem, autem ab veritatis repellendus iure minus! Dolor vero illum quisquam cupiditate repellendus praesentium fugit quia dolorum, architecto quaerat error nisi ad explicabo accusamus molestias fugiat unde! Reprehenderit quasi tempore sint dolor dolores distinctio aliquam voluptas velit cumque, sed repellendus iste? Excepturi, facere nihil! Quae eius possimus dicta incidunt neque harum, cumque iste, nam ex molestiae enim. Aliquam dolore perferendis mollitia nobis deserunt, molestiae ratione, explicabo optio inventore, voluptatem voluptate! Saepe laborum iusto dolorem magnam animi recusandae sequi quos. Eius beatae architecto officiis hic saepe. Provident natus nisi tenetur ducimus reprehenderit mollitia omnis nesciunt veniam architecto? Pariatur saepe reiciendis voluptatibus similique culpa, optio libero quo quisquam alias animi quos id eos, laboriosam fugit ipsam, quasi ipsum eaque nam consequuntur. Dolor tempore eveniet sapiente eos nulla in! Exercitationem, accusantium placeat ut earum eum adipisci odit atque distinctio! Animi mollitia exercitationem natus repellat, eaque cumque quos quaerat distinctio laboriosam ab debitis atque velit reprehenderit maiores corporis dolor ad cum in rem? Voluptas cum et at commodi, assumenda debitis optio consectetur doloremque, animi minus pariatur molestias perspiciatis doloribus molestiae mollitia architecto quo iure nesciunt, possimus esse ratione. Quae, sit. Alias, ab. Quos ipsum, aut blanditiis atque officia voluptas iste cumque molestiae, earum, consequatur quis voluptate? Libero totam quo itaque eos omnis asperiores tempore dolor laborum debitis! Numquam officia quisquam sit iure?</p> */}
-    </div>
-  )
-}
+      <div className="  mt-24   mb-44  flex-wrap ">
+        <div className=" flex items-center justify-center">
+          <h2 className=" text-black font-medium text-3xl">
+            Skills & &nbsp;
+            <span className=" text-blue-900 font-sans">Experiences</span>
+          </h2>
+        </div>
+        <br></br>
+        {/* skills icons */}
+        <div className=" flex justify-center p-1">
+          {/* skill img here */}
+          <div className="  grid grid-cols-3 gap-7 ">
+            {TechSkillImg.map((skillImg) => (
+              <>
+                <div className="" key={skillImg.img}>
+                  <div className=" cursor-pointer  hover:animate-bounce duration-200">
+                    <img
+                      className=" sm:w-20 sm:flex bg-white rounded-lg"
+                      src={skillImg.src}
+                      alt=""
+                    />
+                    <br></br>
+                    <span className=" font-semibold  flex items-center justify-center">
+                      {skillImg.name}
+                    </span>
+                  </div>
+                </div>
+              </>
+            ))}
+          </div>
+          <div className=" border  border-s-black border-l-slate-950 ml-11"></div>
 
-export default Education
+          {/* experience text */}
+          <div className="   grid grid-cols-4   sm:w-[400px]">
+            {/* experience  */}
+            {Experience.map((experience) => (
+              <>
+                <div key={experience.id} className=" col-span-2">
+                  <span className=" text-center  text-blue-700 font-semibold">
+                    {experience.time}
+                  </span>
+                  <div className="  ml-11"></div>
+                  <span className="  text-black  font-medium">
+                    {experience.companyname}
+                  </span>
+                </div>
+                <div className="  col-span-2 ">
+                  <span className=" font-semibold">{experience.work}</span>
+                </div>
+              </>
+            ))}
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Education;
