@@ -9,9 +9,11 @@ import ProjectSection from "./ProjectSection";
 import ShapeBottom from "./ShapeDivider/ShapeBottom";
 import CodingProfile from "./CodingProfile";
 import ContactPage from "./ContactPage";
+import { Routes } from "react-router-dom";
+import { Route } from "lucide-react";
 
 // locmotiveScroll
-const locomotiveScroll = new LocomotiveScroll();
+const locomotiveScroll = new LocomotiveScroll({});
 
 const MainPage = () => {
   return (
@@ -29,7 +31,7 @@ const MainPage = () => {
         <div className="">
           <CodingProfile />
         </div>
-      <ContactPage/>
+        <ContactPage />
         {/* <SkillSection/> */}
       </div>
     </div>
