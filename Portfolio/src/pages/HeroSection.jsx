@@ -11,8 +11,8 @@ import { TypedJS } from "@/lib/TypedJS";
 const HeroSection = () => {
   return (
     <div>
-      <div className=" flex  justify-between  gap-3     bg-slate-900 text-white p-1">
-        <div className=" text-section sm:ml-48   sm:flex sm:items-center">
+      <div className=" flex  justify-between  h-[220px]  gap-3 bg-slate-900 text-white p-1">
+        <div className=" text-section sm:ml-48 sm:flex sm:items-center">
           <TypedJS />
         </div>
         <div className=" img-sections">
