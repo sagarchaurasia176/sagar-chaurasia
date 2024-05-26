@@ -2,22 +2,22 @@ export const TechSkillImg = [
   {
     img: 1,
     src: "https://asset.brandfetch.io/ideyyfT0Lp/idhHZwYUWa.png",
-    name: "Mongo Db",
+    name: "Mongo DB",
   },
   {
     img: 2,
     src: "https://cdn.worldvectorlogo.com/logos/react-1.svg",
-    name: "React Js",
+    name: "React JS",
   },
   {
     img: 3,
     src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeKPw4CK4jcH7udsFHZdiB3iIOuI3fUCsxUZosXy4Y1yd25NA-dzCBPrSDIhg1BwObl3w&usqp=CAU",
-    name: "Tailwind Css",
+    name: "Tailwind CSS",
   },
   {
     img: 4,
     src: "https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png?f=webp",
-    name: "Node Js",
+    name: "Node JD",
   },
   {
     img: 5,

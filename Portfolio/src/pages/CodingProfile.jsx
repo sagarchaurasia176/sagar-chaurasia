@@ -18,7 +18,7 @@ const CodingProfile = () => {
             <>
               <div key={codes.id} className="">
                 <img
-                  className=" rounded-2xl cursor-pointer hover:animate-bounce  duration-100 "
+                  className=" rounded-2xl cursor-pointer  duration-100 "
                   src={codes.src}
                   alt=""
                 />

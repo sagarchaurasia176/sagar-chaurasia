@@ -13,7 +13,7 @@ const Education = () => {
         </div>
         <br></br>
         {/* skills icons */}
-        <div className=" flex justify-center p-1">
+        <div className=" md:flex  md:justify-center sm:block  p-1">
           {/* skill img here */}
           <div className="  grid grid-cols-3 gap-7 ">
             {TechSkillImg.map((skillImg) => (
@@ -21,7 +21,7 @@ const Education = () => {
                 <div className="" key={skillImg.img}>
                   <div className=" cursor-pointer  hover:animate-bounce duration-200">
                     <img
-                      className=" sm:w-20 sm:flex bg-white rounded-lg"
+                      className=" md:w-20 w-15  sm:flex bg-white rounded-lg"
                       src={skillImg.src}
                       alt=""
                     />
@@ -37,7 +37,7 @@ const Education = () => {
           <div className=" border  border-s-black border-l-slate-950 ml-11"></div>
 
           {/* experience text */}
-          <div className="   grid grid-cols-4   sm:w-[400px]">
+          <div className="    grid grid-cols-4 sm:w-[400px]">
             {/* experience  */}
             {Experience.map((experience) => (
               <>
@@ -56,8 +56,6 @@ const Education = () => {
               </>
             ))}
           </div>
-
-          
         </div>
       </div>
     </div>
