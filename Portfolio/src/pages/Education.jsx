@@ -4,18 +4,39 @@ import { Experience } from "@/lib/Experience";
 const Education = () => {
   return (
     <div>
-      <div className="  mt-24   mb-44  flex-wrap ">
+      <div className="  mt-24   bg-slate-200 text-black  mb-44  p-4 h-[800px]  flex-wrap ">
         <div className=" flex items-center justify-center">
-          <h2 className=" text-black font-medium text-3xl">
+          <h2 className=" font-medium text-3xl">
             Skills & &nbsp;
             <span className=" text-blue-900 font-sans">Experiences</span>
           </h2>
         </div>
         <br></br>
         {/* skills icons */}
-        <div className=" md:flex  md:justify-center sm:block  p-1">
+        <div className=" md:flex md:justify-center sm:block  p-1">
           {/* skill img here */}
-          <div className="  grid grid-cols-3 gap-7 ">
+
+          <div className="border-l-slate-50  p-4 grid grid-cols-4 sm:w-[400px]">
+            {/* experience  */}
+            {Experience.map((experience) => (
+              <>
+                <div key={experience.id} className=" col-span-2">
+                  <span className=" text-center  text-black font-semibold">
+                    {experience.time}
+                  </span>
+                  <div className="  ml-11"></div>
+                  <span className="  text-blue-900  font-extrabold">
+                    {experience.companyname}
+                  </span>
+                </div>
+                <div className="  col-span-2 ">
+                  <span className=" font-semibold">{experience.work}</span>
+                </div>
+              </>
+            ))}
+          </div>
+          
+          <div className=" mt-12 grid grid-cols-3 gap-7 ">
             {TechSkillImg.map((skillImg) => (
               <>
                 <div className="" key={skillImg.img}>
@@ -34,28 +55,11 @@ const Education = () => {
               </>
             ))}
           </div>
-          <div className=" border  border-s-black border-l-slate-950 ml-11"></div>
+
+          <div className=" border  border-s-black border-none border-l-slate-950 ml-11"></div>
 
           {/* experience text */}
-          <div className="    grid grid-cols-4 sm:w-[400px]">
-            {/* experience  */}
-            {Experience.map((experience) => (
-              <>
-                <div key={experience.id} className=" col-span-2">
-                  <span className=" text-center  text-blue-700 font-semibold">
-                    {experience.time}
-                  </span>
-                  <div className="  ml-11"></div>
-                  <span className="  text-black  font-medium">
-                    {experience.companyname}
-                  </span>
-                </div>
-                <div className="  col-span-2 ">
-                  <span className=" font-semibold">{experience.work}</span>
-                </div>
-              </>
-            ))}
-          </div>
+      
         </div>
       </div>
     </div>

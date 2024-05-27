@@ -1,19 +1,31 @@
 import React from "react";
 import myimg from "../img/HomeImg.png";
 import { TypedJS } from "@/lib/TypedJS";
+
 const HeroSection = () => {
   return (
     <div>
-      <div className=" flex  justify-between h-[280px]  md:h-[380px]  gap-3 bg-slate-900 text-white p-1">
-        <div className=" text-section sm:ml-48 ">
-         
+      <div
+        className=" lg:block flex-wrap lg:justify-evenly  block h-[350px]  
+      gap-3 bg-slate-900 text-white p-1"
+      >
+        <div className="text-section flex  justify-center items-center">
           <TypedJS />
         </div>
+        <br></br>
 
-        <div className=" img-sections">
+        <div className=" items-center flex justify-center">
+          <span className=" text-red-200 mb-14 text-center sm:text-1xl ">
+            Building Software to solve real life Problem
+          </span>
+        </div>
+
+        {/* map fucntions apply here */}
+
+        <div className=" img-section ">
           <img
             src={myimg}
-            className="  sm:w-2/3  sm:flex-grow-0 rounded-xl  max-sm:w-36  shadow-md "
+            className="w-52 ml-[100px]  md:ml-[500px] sm:flex sm:items-center md:w-60 transition-all  rounded-xl   shadow-md "
             alt=""
           />
         </div>

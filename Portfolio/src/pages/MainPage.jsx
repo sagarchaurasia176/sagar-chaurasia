@@ -4,7 +4,6 @@ import LocomotiveScroll from "locomotive-scroll";
 import HeroSection from "./HeroSection";
 import Education from "./Education";
 import AboutSection from "./AboutSection";
-import SkillSection from "./SkillSection";
 import ProjectSection from "./ProjectSection";
 import ShapeBottom from "./ShapeDivider/ShapeBottom";
 import CodingProfile from "./CodingProfile";
@@ -18,7 +17,7 @@ const locomotiveScroll = new LocomotiveScroll({});
 const MainPage = () => {
   return (
     <div>
-      <div>
+      <div className=" ">
         <HeaderNav />
         <div className="  relative">
           <HeroSection />

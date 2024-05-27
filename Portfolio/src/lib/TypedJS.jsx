@@ -6,11 +6,12 @@ export function TypedJS() {
   const el = React.useRef(null);
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["  <h3>Hey,there I'm </h3><b>Sagar</b>  <b> A FullStack Developer/> </b>"],
+      strings: [
+        "  <h3>Hey,there I'm </h3><b>Sagar Chaurasia</b> <br> <b> A FullStack Developer/></b>",
+      ],
       smartBackspace: true,
-      typeSpeed:140,
-      loopCount:Infinity,
-    
+      typeSpeed: 140,
+      loopCount: Infinity,
     });
     return () => {
       // Destroy Typed instance during cleanup to stop animation

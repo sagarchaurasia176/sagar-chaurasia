@@ -4,7 +4,7 @@ import { Code } from "@/lib/Code";
 const CodingProfile = () => {
   return (
     <div>
-      <div className=" p-1 bg-slate-50 sm:h-96 text-center m-auto  mb-16 text-black">
+      <div className=" p-1  sm:h-96 text-center m-auto  mb-16 text-black">
         <div className=" text-center p-3">
           <span className=" sm:text-center  text-3xl font-bold">
             Coding &nbsp;
