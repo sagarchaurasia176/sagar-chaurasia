@@ -25,7 +25,7 @@ const HeroSection = () => {
         <div className=" img-section ">
           <img
             src={myimg}
-            className="w-52 ml-[100px]  md:ml-[500px] sm:flex sm:items-center md:w-60 transition-all  rounded-xl   shadow-md "
+            className="w-52 ml-[130px]  md:ml-[500px] sm:flex sm:items-center md:w-60 transition-all  rounded-xl   shadow-md "
             alt=""
           />
         </div>
