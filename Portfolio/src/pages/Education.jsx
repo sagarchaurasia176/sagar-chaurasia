@@ -4,7 +4,7 @@ import { Experience } from "@/lib/Experience";
 const Education = () => {
   return (
     <div>
-      <div className="  mt-24   bg-slate-200 text-black  mb-44  p-4 h-[800px]  flex-wrap ">
+      <div className="  mt-24  bg-slate-900   text-black  mb-44  p-4 h-[800px]  flex-wrap ">
         <div className=" flex items-center justify-center">
           <h2 className=" font-medium text-3xl">
             Skills & &nbsp;
@@ -42,7 +42,7 @@ const Education = () => {
                 <div className="" key={skillImg.img}>
                   <div className=" cursor-pointer  hover:animate-bounce duration-200">
                     <img
-                      className=" md:w-20 w-15  sm:flex bg-white rounded-lg"
+                      className=" md:w-20 w-15  sm:flex rounded-lg"
                       src={skillImg.src}
                       alt=""
                     />

@@ -1,10 +1,14 @@
 import React from "react";
-import myimg from "../img/HomeImg.png";
 import { TypedJS } from "@/lib/TypedJS";
+import Header from "./Header";
+import ShapeBottom from "./ShapeDivider/ShapeBottom";
 
 const HeroSection = () => {
   return (
     <div>
+      <div className="  bg-slate-900   text-white  p-1">
+        <Header />
+      </div>
       <div
         className=" lg:block flex-wrap lg:justify-evenly  block h-[350px]  
       gap-3 bg-slate-900 text-white p-1"
@@ -21,15 +25,9 @@ const HeroSection = () => {
         </div>
 
         {/* map fucntions apply here */}
-
-        <div className=" img-section ">
-          <img
-            src={myimg}
-            className="w-52 ml-[130px]  md:ml-[500px] sm:flex sm:items-center md:w-60 transition-all  rounded-xl   shadow-md "
-            alt=""
-          />
-        </div>
       </div>
+
+      <ShapeBottom />
     </div>
   );
 };

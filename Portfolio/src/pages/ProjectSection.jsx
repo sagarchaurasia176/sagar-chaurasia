@@ -3,7 +3,7 @@ import React from "react";
 
 const ProjectSection = () => {
   return (
-    <div className="  sm:h-96   bg-slate-50   flex-row">
+    <div className="  sm:h-96 text-white  flex-row">
       <div className=" flex  justify-center items-center p-3">
         <span className=" sm:text-center  text-3xl font-bold">
           Some Recent &nbsp;
